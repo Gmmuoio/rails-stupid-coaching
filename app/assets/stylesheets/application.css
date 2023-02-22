@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+ .container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .question {
+  font-size: large;
+  font-family: 20px, "Times New Roman", sans-serif;
+  border-left: 2mm solid rgb(146, 146, 143, 0.5);
+  padding-inline-start: 4px;
+  margin: 15px;
+ }
+
+  .mensage {
+   font-size: large;
+   font-family: 20px, "Times New Roman", sans-serif;
+   border-left: 2mm solid rgb(146, 146, 143, 0.5);
+   padding-inline-start: 4px;
+   margin: 15px;
+   background-color: rgb(252, 252, 128, 0.5);
+  }
